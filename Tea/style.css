@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  height: 50px;
+  margin: 30px 10px;
+  float: left;
+}
+
+nav li {
+  margin-right: 20px;
+  padding: 10px;
+  list-style-type: none;
+  display: inline;
+  float: right;
+}
+
+nav a {
+  color: seashell;
+}
+
+/* Main */
+.main {
+  display: flex;
+  background: url("resources/mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.mission {
+  height: 150px;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  background-color: black;
+  margin-bottom: 50px;
+  width: 100%;
+
+}
+
+/* Tea of the Month*/
+
+.tea-month {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.month {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.one {
+  height: 300px;
+  width: 300px;
+
+}
+
+.pic-one {
+  height: 200px;
+}
+
+.two {
+  height: 300px;
+  width: 300px;
+}
+
+.pic-two {
+  height: 200px;
+}
+
+.three {
+  height: 300px;
+  width: 300px;
+}
+
+.pic-three {
+  height: 200px;
+}
+
+.four {
+  height: 300px;
+  width: 300px;
+}
+
+.pic-four {
+  height: 200px;
+}
+
+.five {
+  height: 300px;
+  width: 300px;
+}
+
+.pic-five {
+  height: 200px;
+}
+
+p {
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  background: url("resources/locations-background.jpg") 0 -100px;
+  margin: auto;
+  width: 1200px;
+  height: 500px;
+}
+
+.location h3 {
+  text-align: center;
+}
+
+.location-container {
+  margin: auto;
+}
+
+.downtown {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.east-bayside {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.oakdale {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+/* Footer */
+
+footer h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer h5 {
+  text-align: center;
+}
+
+.copy {
+  float: left;
+}
